@@ -1,5 +1,4 @@
-# _api
-this is a simple api that can display list of available drivers and create them and filter them using driver's email, mobile_number, langeuage and truck's number_plate
+This is a simple api that can display list of available drivers and create them and filter them using driver's email, mobile_number, langeuage and truck's number_plate
 access "/myapi/driver" to create a driver and after create one you can display the drivers with the same endpoint 
 access "/myapi/driver/id"to view a single driver for example "myapi/driver/1" to display the driver with id = 1 
 
