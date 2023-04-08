@@ -6,15 +6,15 @@ access "/myapi/driver/id"to view a single driver for example "myapi/driver/1" to
 serializers: to be able to deal with model data through convert the object to format where we can store them and filter them and apply methods on them  
 generics filters:to use its method where we can view the the list of drivers and filter to enable searching through drivers deatils 
      
-improvments****
+***improvments****
 we can add some features in term of security we can allow access the api via token which will be like a key to access it 
 we can add more models like the users model and set the relations between the driver and the others model accordingly 
 
-Production consideration***
+***Production consideration***
 database conncation 
 modules conflictions 
 and we should turn off debugging mode 
 
-Assumptions**
+**Assumptions**
 
 I assume that one driver can have many trucks when I desgined the models 
